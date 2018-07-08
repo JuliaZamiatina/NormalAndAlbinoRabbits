@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Asus/Documents/NetBeansProjects/Laba2/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Laba2</title>
+        <vendor>Asus</vendor>
+        <homepage href=""/>
+        <description>Laba2</description>
+        <description kind="short">Laba2</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.8+"/>
+        <jar href="Laba2.jar" main="true"/>
+    </resources>
+    <applet-desc height="300" main-class="laba2.Laba2" name="Laba2" width="300">
+    </applet-desc>
+</jnlp>
